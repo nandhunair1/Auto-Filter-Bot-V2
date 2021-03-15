@@ -22,7 +22,7 @@ async def start(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "❣ JOIN OUR Group ❣", url="https://t.me/tvseriezzz")
+                            "❣ JOIN Our Group ❣", url="https://t.me/tvseriezzz")
                     ]
                 ]
             ),
@@ -41,7 +41,11 @@ async def help(client, message):
                 [
                     [
                         InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", 
+                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            "⭕️ SUPPORT ⭕️", url="https://t.me/tvseriezzz")
                     ]
                 ]
             ),
@@ -61,6 +65,10 @@ async def about(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            "Creater", url="https://t.me/MrC_VENOM")
                     ]
                 ]
             ),
