@@ -45,7 +45,7 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "😎 SUPPORT 😎", url="https://t.me/MrC_VENOM")
+                            "⭕ SUPPORT ⭕", url="https://t.me/MrC_VENOM")
                     ]
                 ]
             ),
@@ -68,7 +68,7 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🙂 Create For 🙂", url="https://t.me/tvseriezzz")
+                            "⭕ Create For ⭕", url="https://t.me/tvseriezzz")
                     ]
                 ]
             ),
