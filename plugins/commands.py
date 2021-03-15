@@ -41,11 +41,7 @@ async def help(client, message):
                 [
                     [
                         InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "⭕ SUPPORT ⭕", url="https://t.me/MrC_VENOM")
+                        InlineKeyboardButton("ABOUT", 
                     ]
                 ]
             ),
@@ -65,10 +61,6 @@ async def about(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "⭕ Create For ⭕", url="https://t.me/tvseriezzz")
                     ]
                 ]
             ),
