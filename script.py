@@ -3,13 +3,8 @@ class script(object):
 
     START_MSG = """ <b>Hi {}
 
-You can call this as an Auto Filter Bot if you like :D
-
-This is Version 2 of Auto Filter Bot
-
-Bot gives button link to files in connected channels on query !
-
-No need to add filters for your files or movies from now on!
+എന്നെ മറ്റുള്ള ഗ്രൂപ്പിൽ ചേർക്കാമെന്നു വിചാരിക്കണ്ട. 😎 ➠ᴄʜᴀɴɴᴇʟ : @TV_SERIES_ON | @A_IN_O_C 👈👈
+😎 ➠Group : @tvseriezzz
 
 For more click <i>help</i></b>"""
 
